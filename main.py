@@ -27,3 +27,6 @@ for x in range(1, int(amount) + 1):
     send() # uses gay send def yes.
     print("Code Sent: " + code + "Code Number: %d" % (x))
     time.sleep(1.65)
+
+print('\nAll the codes have been sent to your server!')
+time.sleep(5)
