@@ -4,7 +4,7 @@ import time
 import crayons
 from discord_webhook import *
 
-print("{}".format(crayons.green('\nThis was made by Misspoken#1122! Not my fault if you get in trouble.')))
+print("{}".format(crayons.green('This was made by Misspoken#1122! Not my fault if you get in trouble.')))
 
 def send():
     webhook = DiscordWebhook(url=webhookurl, content="discord.gift/" + code) # First part of the generating.
